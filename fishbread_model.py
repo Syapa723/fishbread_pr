@@ -23,7 +23,7 @@ class BreadShop :
                     self.sales[bread_type] += bread_count
                     print(f'{bread_type} {bread_count}개가 판매되었습니다.')
                 else :
-                    print(f'재고가 부족합니다. 현재 {stock[bread_type]}개만 주문가능합니다.')
+                    print(f'재고가 부족합니다. 현재 {self.stock[bread_type]}개만 주문가능합니다.')
             else :
                 print('정신을 똑바로 차리시고 주문을 다시해주세요')
 
